@@ -3,12 +3,20 @@
 
 body,html{margin:0;padding:0;height:100%;overflow-x:hidden;}
 body{
-  background-color: #212121;
+  background-color: #000;
   background-size:cover;
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
+}
+h1 {
+  font-size:3rem;
+  color: #fff;
+  font-family: 'Permanent Marker', cursive;
+  font-weight:600;
+  letter-spacing: 4px;
+  margin-left: 10px;
 }
 .splash {
   height: 100vh;
@@ -88,7 +96,12 @@ body{
 }
 /* PG */
 .PG {
-  background-image: url("./icons/PG/logo.png");
+  background: rgb(0,0,0);
+background: -moz-linear-gradient(40deg, rgba(0,0,0,1) 0%, rgba(228,82,38,1) 17%, rgba(233,179,15,1) 34%, rgba(60,236,23,1) 49%, rgba(10,53,221,1) 65%, rgba(243,128,235,1) 83%, rgba(255,255,255,1) 100%);
+background: -webkit-linear-gradient(40deg, rgba(0,0,0,1) 0%, rgba(228,82,38,1) 17%, rgba(233,179,15,1) 34%, rgba(60,236,23,1) 49%, rgba(10,53,221,1) 65%, rgba(243,128,235,1) 83%, rgba(255,255,255,1) 100%);
+background: linear-gradient(40deg, rgba(0,0,0,1) 0%, rgba(228,82,38,1) 17%, rgba(233,179,15,1) 34%, rgba(60,236,23,1) 49%, rgba(10,53,221,1) 65%, rgba(243,128,235,1) 83%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+filter: blur(20px);
   height: 100vh;
   width: 100%;
 }
